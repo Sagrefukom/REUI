@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    max-width: 100%;
+    border: solid 1px;
+    position: relative;
+}
+.form {
+    
+    &__container{
+        background-color: #FFF5DA;
+        height: 400px;
+        
+        @include flex-small();
+    }
+}
+
+.form input {
+position: relative;
+width: 400px;
+height: 80px;
+padding: 15px;
+}

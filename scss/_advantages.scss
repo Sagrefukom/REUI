@@ -1,0 +1,32 @@
+.advantages {
+
+    &__block {
+        @include flex-small();
+        @media (min-width:992px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    &__image {
+        display: none;
+        
+        @media (min-width:992px) {
+            display: grid;
+            overflow: hidden;
+            position: relative;
+            float: right;
+        }
+    }
+    &__container {
+        @include flex-small();
+        width: 100%;
+        
+        @media (min-width:992px) {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+    }
+    &__image :hover {background: $main-color};
+}

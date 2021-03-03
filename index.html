@@ -2,30 +2,342 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
     <title>REUI</title>
+
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./lightgallery/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="./lightgallery/dist/css/lg-transitions.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio in sapiente facere, praesentium repellendus ipsam at cupiditate quidem, libero mollitia itaque obcaecati consequatur possimus! Laborum ad atque laudantium iusto hic?
-    Magnam explicabo modi deserunt qui nihil exercitationem ex sequi dolores. Nostrum, soluta. Omnis illo dolor animi? Consequuntur inventore aperiam quod maiores, voluptatum, unde laboriosam suscipit, eius fugit vero incidunt consectetur.
-    Voluptas architecto commodi, molestiae deleniti eveniet amet sint aliquid expedita impedit quos obcaecati at totam unde dolor error reprehenderit, et, nihil dolorum illum possimus ipsam adipisci tempora. Corrupti, modi molestias?
-    Necessitatibus, vel, pariatur ad magnam blanditiis rerum laudantium dolores harum voluptas at ea doloribus nostrum veritatis odit incidunt dolore cumque quaerat itaque id culpa reprehenderit nesciunt nulla aliquam maxime? Fuga.
-    Provident enim, exercitationem eos quo veniam quos nemo laudantium molestias sapiente nisi pariatur unde, assumenda amet aperiam officia officiis quaerat non perferendis omnis, repudiandae odio sequi ratione iusto necessitatibus. Voluptates?
-    Quas incidunt aspernatur amet nisi beatae mollitia, accusamus, animi maiores dolorem voluptatum corrupti odio, at cumque! Natus reiciendis ullam cum vero est porro repudiandae quod repellat. Debitis maxime autem laborum.
-    Obcaecati accusantium voluptate eos culpa velit. Nam iusto, mollitia rem natus enim laborum fugit eum recusandae facere repudiandae dolorum nisi dignissimos, maxime in, consectetur voluptate vitae officia quae? Similique, nesciunt.
-    Porro laudantium, modi ducimus odit similique iste consequatur magni beatae cumque. Reprehenderit quae asperiores nihil nisi, hic aliquid libero, quam velit modi ipsum id odit a expedita nemo, cupiditate recusandae!
-    Magni quibusdam ducimus, culpa assumenda voluptas cupiditate corporis maxime minima architecto. Eius, ab. Praesentium, error quas dicta explicabo modi quidem dolorum eum quisquam facere illum repellat fugiat nam distinctio quibusdam.
-    Quia, tenetur? Beatae, explicabo rem! Ipsum quae officia tempore expedita, dolore, fuga, sint itaque in laborum nobis eum. Consequuntur molestias nihil quia quam consectetur. Ad magnam dignissimos suscipit ab vitae.
-    Animi nobis iste eligendi quas, facilis ipsa omnis ad fugit minima! Veritatis voluptas, deserunt, molestiae earum quasi porro vero quia, iste a praesentium ad perspiciatis nesciunt quo id optio animi.
-    Aliquam sapiente vero atque minus. Dolores, quis assumenda similique accusamus ipsa atque rem iusto necessitatibus officia quam voluptate earum! Explicabo in id velit natus repudiandae, eius dolorem aut cum nostrum.
-    Commodi velit, sunt reprehenderit exercitationem totam nulla laboriosam possimus quo! Amet sed quia vel laboriosam debitis! Soluta dolores consectetur fuga tenetur iusto voluptatibus consequatur dignissimos quos quae, vero aspernatur deleniti?
-    Assumenda voluptates officia placeat explicabo eos tenetur! Iure omnis eos cupiditate illum deleniti cum corporis ipsam esse. Ducimus, similique reprehenderit ipsa magni quasi voluptate blanditiis praesentium molestiae perferendis recusandae dolorem!
-    Aut illum, laudantium aperiam aliquid sunt necessitatibus cupiditate adipisci perferendis, non molestias nostrum veritatis ipsum recusandae. Illo nesciunt ad possimus earum sit aliquid alias! Vitae expedita veritatis delectus reiciendis omnis.
-    Officia sunt porro doloremque inventore necessitatibus veniam vel ipsam minus pariatur est perspiciatis consectetur quaerat placeat adipisci explicabo laudantium dolores cupiditate cum dignissimos, incidunt facilis! Pariatur fuga praesentium deleniti possimus!
-    Dolorum natus quia inventore beatae, nesciunt impedit iste praesentium! Quibusdam repudiandae animi laborum quod nihil consequuntur autem praesentium mollitia officiis ipsum neque saepe velit debitis, voluptatem error facere nisi dolorum?
-    Nobis maiores, similique unde earum maxime aut, magnam rerum adipisci ipsam iste repellat consequuntur corporis distinctio nisi necessitatibus mollitia odio officiis temporibus quis laborum commodi, vero debitis ipsa! Maiores, dolorem!
-    Consequuntur iste quia quidem iusto minima ratione. Culpa tempore sequi, a accusantium vel, magni alias illum totam suscipit rerum dolorem. Consequuntur veritatis, quia odio sunt blanditiis ullam id praesentium harum.
-    Iusto explicabo doloribus inventore voluptate reprehenderit asperiores sint quasi perferendis, deleniti ea necessitatibus. Iste mollitia obcaecati cumque magnam, necessitatibus doloremque quisquam! Ullam temporibus sequi voluptatibus quos nisi ipsam voluptates commodi!</p>
+    
+    <main>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__left">
+                   <a class="logo" href="#"><img src="./img/RUEI-logo.svg" alt="" class="logo__img"></a>
+                </div>
+                <div class="header__right">
+                    <div class="header__burger burger">
+                        <div id="burger-button" class="burger__button">
+                            <span class="burger__button-item"></span>
+                        </div>
+                    </div>
+                    <div class="header__nav nav">
+                        <a href="#" class="nav__link">On sale</a>
+                        <a href="#" class="nav__link">For rent</a>
+                        <a href="#" class="nav__link">New Residential Project</a>
+                        <a href="#" class="nav__link">Property News</a>
+                      </div> 
+                </div>
+            </div>
+        </header>
+        <section class="welcome-page">
+            <div class="welcome-page__container">
+                <h1 class="title">Quality home services, on
+                     demand</h1>
+                <p class="title__description">Experienced, hand-picked Professionals to serve you
+                     at your doorstep</p>
+                    <button class="btn">Search</button>
+            </div>
+        </section>
+        <section class="journeys">
+            <div class="journeys__container">
+                   <div class="rooms">
+                    <div class="rooms__image">
+                        <img class="rooms__image-item" src="./img/roomsImage-stairs.png" alt="">
+                    </div>
+                    <div class="rooms__image-description">
+                        <img class="icon" src="./img/icon-next-vector.svg" alt="">
+                        <p class="rooms__image-description-item">
+                            Same great quality. New lower prices.
+                        </p>
+                    </div>
+                   </div>
+                    <div class="rooms">
+                        <div class="rooms__image">
+                            <img class="rooms__image-item" src="./img/roomsImage-kitchen.png" alt="">
+                        </div>
+                        <div class="rooms__image-description">
+                            <img class="icon" src="./img/icon-next-vector.svg" alt="">
+                            <p class="rooms__image-description-item">
+                                Everyday Essentials, High quality affordable
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rooms">
+                        <div class="rooms__image">
+                            <img class="rooms__image-item" src="./img/roomsImage-living.png" alt="">
+                        </div>
+                        <div class="rooms__image-description">
+                            <img class="icon" src="./img/icon-next-vector.svg" alt="">
+                            <p class="rooms__image-description-item">
+                                Join with pleasure the makeover journey 
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+                    <div class="advantages__container">
+                        <div class="advantages__text">
+                            <h3 class="subtitle">Why housesale Company?</h3>
+                            <div class="advantages__block">
+                                <img class="icon" src="./img/pricing-icon.svg" alt="">
+                                <div class="text">
+                                    <p class="text__title">Transparent pricing</p>
+                                    <p class="text__normal">See fixed prices before you book.
+                                         No hidden charges.</p>
+                                </div>
+                            </div>
+                            <div class="advantages__block">
+                                <img class="icon" src="./img/experts-icon.svg" alt="">
+                                <div class="text">
+                                    <p class="text__title">Experts only</p>
+                                    <p class="text__normal">Our professionals are well trained
+                                         and have on-job expertise.</p>
+                                </div>
+                            </div>
+                            <div class="advantages__block">
+                                <img class="icon" src="./img/equipp-icon.svg" alt="">
+                                <div class="text">
+                                    <p class="text__title">Fully equipped</p>
+                                    <p class="text__normal">We bring everything needed to get
+                                         the job done well.</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="advantages__image">
+                            <img class="rooms__image-item--big" src="./img/advantage-image.png" alt="">
+                        </div>
+                    </div>
+                    <div class="form__container">
+                        <div class="text">
+                            <p class="subtitle">Book professionals from your phone</p>
+                            <p class="text__normal">Enter your mobile number to get the professionals help</p>
+                        </div>
+                        <form  class="form" method="GET">
+                            <input placeholder="+13" type="tel" name="tel">
+                            <button class="btn btn__form" href="#">Send</button>
+                        </form>   
+                    </div>
+        </section>
+        <section class="ideas">
+            <div class="ideas__container">
+                <p class="subtitle">More ideas and inspiration</p>
+                <div class="ideas__album">
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-3.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-2.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-1.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-4.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-5.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-6.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-3.png" alt="">
+                        </div>
+                        <div class="ideas__album-building">
+                            <img class="ideas__album-building--item" src="./img/album-img-2.png" alt="">
+                        </div>
+                </div>
+                <div id="lightgallery" class="ideas__album-gallary">
+                    <a href="./img/album-img-3.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-3.png" alt="">
+                    </a>
+                    <a href="./img/album-img-2.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-2.png" alt="">
+                    </a>
+                    <a href="./img/album-img-1.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-1.png" alt="">
+                    </a>
+                    <a href="./img/album-img-4.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-4.png" alt="">
+                    </a>
+                    <a href="./img/album-img-5.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-5.png" alt="">
+                    </a>
+                    <a href="./img/album-img-6.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-6.png" alt="">
+                    </a>
+                    <a href="./img/album-img-3.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-3.png" alt="">
+                    </a>
+                    <a href="./img/album-img-2.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-2.png" alt="">
+                    </a>
+                    <a href="./img/album-img-4.png" class="ideas__album-gallary-building">
+                        <img class="ideas__album-gallary-building--item" width="100px" height="150px" src="./img/album-img-4.png" alt="">
+                    </a>
+            </div>
+                <div class="ideas__album-description">
+                    <div class="ideas__album-description ideas__collection">
+                        <div class="text text-collection ">
+                            <p class="subtitle">More ideas and inspiration</p>
+                            <p class="text__normal first_paragraph">Housesale chose to work together with the Lebanese
+                                designer Nada Debs. We are thrilled to present this collaboration and
+                                 the LJUV collection, and we hope that you can see, feel, use the connection
+                                  between a designer from the Middle East democratic design.</p>
+                            <p class="text__normal second_paragraph"> Nada Debs is a
+                                    Levantine designer living and working in Beirut. Her work spans scale and
+                                     discipline: from product to furniture design to one-off commission across
+                                      craft, art, fashion, and interiors. Nada grew up in Japan, studied design
+                                       in Rhode Island School of Design in the US, and has spent significant
+                                        periods living and traveling the world, finding connections of each
+                                         of her experiences in all her work. She calls her approach handmade, and heart-made!</p>
+                            <button class="btn" href="#">More Collection</button>
+                        </div>
+                        <div class="journeys__container ideas__container-collection">
+                            <div class="rooms__container rooms__container-collection">
+                             <div class="rooms__image">
+                                 <img class="rooms__image-item rooms__image-item-collection" src="./img/roomsImage-stairs.png" alt="">
+                             </div>
+                            </div>
+                             <div class="rooms__container rooms__container-collection">
+                                 <div class="rooms__image">
+                                     <img class="rooms__image-item rooms__image-item-collection" src="./img/roomsImage-kitchen.png" alt="">
+                                 </div>
+                             </div>
+                             <div class="rooms__container rooms__container-collection">
+                                 <div class="rooms__image">
+                                     <img class="rooms__image-item rooms__image-item-collection" src="./img/roomsImage-living.png" alt="">
+                                 </div>
+                             </div>
+                         </div> 
+                    </div>
+                    <div class="ideas__album-description furniture">
+                        <div class="furniture__container">
+                            <div class="furniture__product-list">
+                                <a href="#" class="furniture__product-list--item">||Sofas|</a>
+                                <a href="#" class="furniture__product-list--item">|Beds|</a>
+                                <a href="#" class="furniture__product-list--item">|Dining|</a>
+                                <a href="#" class="furniture__product-list--item">|Tv units|</a>
+                                <a href="#" class="furniture__product-list--item">|Mattresses|</a>
+                                <a href="#" class="furniture__product-list--item">|Seating|</a>
+                                <a href="#" class="furniture__product-list--item">|Coffee tables|</a>
+                                <a href="#" class="furniture__product-list--item">|Wardrobes|</a>
+                                <a href="#" class="furniture__product-list--item">|Storage|</a>
+                                <a href="#" class="furniture__product-list--item">|Bookshelves|</a>
+                                <a href="#" class="furniture__product-list--item">|Shoe racks|</a>
+                                <a href="#" class="furniture__product-list--item">|Decor|</a>
+                                <a href="#" class="furniture__product-list--item">|Bathroom|</a>
+                                <a href="#" class="furniture__product-list--item">|Textiles|</a>
+                                <a href="#" class="furniture__product-list--item">|Pots & plants|</a>
+                                <a href="#" class="furniture__product-list--item">|Home electronics|</a>
+                                <a href="#" class="furniture__product-list--item">|Home improvement|</a>
+                                <a href="#" class="furniture__product-list--item">|Lighting||</a>
+                            </div>
+                            <div class="furniture__advertising">
+                                <div class="text">
+                                    <p class="subtitle">Explore our furniture & home furnishing range</p>
+                                    <p class="text__title">IKEA is a global leader in life at home.</p>
+                                    <p class="text__normal">Whether you just moved into a new home or looking to revamp your current one, we at IKEA are here to inspire you with affordable home furniture solutions, there is a piece of furniture to every corner of your home. Create a home that is perfect for you.</p>
+                                    <p class="text__normal">Shopping at IKEA is a bit different and exciting compared to your shopping at an everyday retail. It is about experiencing solutions first hand and getting to know ideas and inspirations that can fit perfectly into your home. That’s why, we offer more than 7500 products, solutions at our store along with home furnishing ideas and services for you to explore.</p>
+                                    <p class="text__normal">When you visit IKEA store, make yourself at home in our many room settings in the store. Squeeze the upholsteries, feel the oriental rugs, try the sofa beds and open the cabinets to feel the quality. On the price tag, you’ll find all you need to know about a product, including where in the store you can pick it up.</p>
+                                    <p class="text__normal">Since most IKEA furniture is flat-packed, they are quite easy to bring home when you buy from the store.</p>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__nav">
+                <a href="#" class="footer__nav-link">Delivery Service</a>
+                <a href="#" class="footer__nav-link">Assembly Service</a>
+                <a href="#" class="footer__nav-link">Customer Service</a>
+                <a href="#" class="footer__nav-link">Contact Us</a>
+                <a href="#" class="footer__nav-link">Near Me</a>
+                <a href="#" class="footer__nav-link">Careers</a>
+                <a href="#" class="footer__nav-link">Gift Cards</a>
+                <a href="#" class="footer__nav-link">Contact Us</a>
+            </div>
+            <div class="footer__location">
+                <div class="footer__location-item">
+                    <p class="subtitle-footer">Serving in</p>
+                    <p class="text__title-footer">Australia</p>
+                    <div class="footer__nav-desc">
+                        <a href="" class="footer__nav-link">Sydney </a>
+                        <a href="" class="footer__nav-link">Albury</a>
+                        <a href="" class="footer__nav-link">Queensland</a>
+                        <a href="" class="footer__nav-link">Adelaide</a>
+                        <a href="" class="footer__nav-link">Hobart</a>
+                        <a href="" class="footer__nav-link">Darwin</a>
+                        <a href="" class="footer__nav-link">Canberra</a>
+                        <a href="" class="footer__nav-link">Perth</a>
+                        <a href="" class="footer__nav-link">Melbourne</a>
+                    </div>
+                </div>
+                <div class="footer__location-item">
+                    <p class="text__title-footer">UAE</p>
+                    <div class="footer__nav-desc">
+                        <a href="" class="footer__nav-link">Dubai </a>
+                        <a href="" class="footer__nav-link">Abu Dhabi</a>
+                        <a href="" class="footer__nav-link">Sharjah</a>
+                        <a href="" class="footer__nav-link">Ajman</a>
+                        <a href="" class="footer__nav-link">Al Ain</a>
+                    </div>
+                </div>
+                <div class="footer__location-item">
+                    <p class="text__title-footer">USA</p>
+                    <div class="footer__nav-desc">
+                        <a href="" class="footer__nav-link">New York </a>
+                        <a href="" class="footer__nav-link">Los Angeles</a>
+                        <a href="" class="footer__nav-link">Chicago</a>
+                        <a href="" class="footer__nav-link">Houston</a>
+                        <a href="" class="footer__nav-link">Philadelphia</a>
+                        <a href="" class="footer__nav-link">San DIego</a>
+                        <a href="" class="footer__nav-link">Washington</a>
+                        <a href="" class="footer__nav-link">Boston</a>
+                        <a href="" class="footer__nav-link">Oklahoma City</a>
+                        <a href="" class="footer__nav-link">Las Vegas</a>
+                    </div>
+                </div>
+                <div class="footer__location-item">
+                    <p class="text__title-footer">Maxico</p>
+                    <div class="footer__nav-desc">
+                        <a href="" class="footer__nav-link">Mexico City</a>
+                        <a href="" class="footer__nav-link">Ecatepec</a>
+                        <a href="" class="footer__nav-link">Guadalajara</a>
+                        <a href="" class="footer__nav-link">Puebla City</a>
+                        <a href="" class="footer__nav-link">Ciudad Juárez</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="footer__left">
+                    <a class="logo" href="#"><img src="./img/RUEI-logo.svg" alt="" class="logo__img"></a>
+                </div>               
+                <div class="footer__copyright-block">
+                    <p class="footer__copyright-block--text">© 2020 Housesale Technologies Ltd.</p>
+                    <p class="footer__copyright-block--text">1760  Dancing Dove Lane, New York, USA</p>
+                    <p class="footer__copyright-block--text">sales@housesales.com</p>
+                </div>
+                <div class="footer__right">
+                    <a class="footer__right-gadgets-icon" href="#"><img src="./img/google-play-icon.png" alt=""></a>
+                    <a class="footer__right-gadgets-icon" href="#"><img src="./img/apple-store-icon.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+            
+    </footer>
+    
+    <script type="text/javascript" src="./js/main.min.js"></script>
+    <script src="./lightgallery/dist/js/lightgallery.min.js"></script>
+    <script src="./lightgallery/modules/lg-fullscreen.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
 </body>
 </html>

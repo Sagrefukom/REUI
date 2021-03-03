@@ -1,0 +1,13 @@
+.btn  {
+    width: 250px;
+    height: 60px;
+    background-color: $main-color;
+    font-size: 25px;
+    &__form {
+        width: 35%;
+        height: 80%;
+        position: absolute;
+        left: 63%;
+        top: 10%;
+    }
+}

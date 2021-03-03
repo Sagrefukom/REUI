@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "null";
+
+
+@import "variables";
+@import "mixins";
+
+@import "header";
+@import 'burger';
+@import 'nav';
+@import "welcome-page";
+@import "journeys";
+@import 'rooms';
+@import "advantages";
+@import "text";
+@import "form";
+@import "ideas";
+@import 'furniture';
+@import "btn";
+@import 'footer';
+
+
+
+
+body {
+    min-width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+.my-prevArrow {
+    padding: 5px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    z-index: 2;
+    background-color: #FFF5DA;
+    &:hover {background-color: $main-color;}
+    border-radius: 50px;
+}
+.my-nextArrow {
+    padding: 5px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    z-index: 2;
+    background-color: #FFF5DA;
+    &:hover {background-color: $main-color;}
+    border-radius: 50px;
+}
+
+.lg-actions .lg-next, .lg-actions .lg-prev {
+    background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.475) 100.48%, rgba(38, 92, 174, 0.01) 100.49%, rgba(195, 195, 196, 0.004) 100.5%, rgb(118, 166, 239) 100.51%);
+    border-radius: 50px;
+    color: #FFC839;
+    cursor: pointer;
+    display: block;
+    font-size: 70px;
+    margin-top: -10px;
+    padding: 8px 10px 9px;
+    position: absolute;
+    top: 50%;
+    z-index: 1080;
+    border: solid 8px #FFC839;
+    outline: none;
+}
+
+.lg-toolbar {
+    z-index: 1082;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.475) 100.48%, rgba(38, 92, 174, 0.01) 100.49%, rgba(195, 195, 196, 0.004) 100.5%, rgb(118, 166, 239) 100.51%);
+}
+.lg-toolbar .lg-icon {
+    color:  #FFC839;
+    cursor: pointer;
+    float: right;
+    font-size: 40px;
+    height: 60px;
+    line-height: 27px;
+    padding: 20px 0;
+    text-align: center;
+    width: 100px;
+    text-decoration: none !important;
+    outline: medium none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+} 

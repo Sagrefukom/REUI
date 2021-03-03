@@ -1,0 +1,30 @@
+.nav {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    
+    @media (min-width: 992px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;   
+    }
+
+    &__link {
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    &--burger {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        margin-top: 80px;
+        padding: 15px 0;
+        background-color: $main-color;
+    }
+} 

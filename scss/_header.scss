@@ -1,0 +1,45 @@
+.header {
+    height: 80px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    &__container {
+       display: flex;
+        width: 100%;
+        background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.4736) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76A6EF 100.51%);
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__left {
+        display: flex;
+        justify-content: flex-start;
+        height: 100%;
+        align-items: center;
+        width: 25%;
+        padding-left: 5%;
+
+        @media (min-width:768px) {
+            justify-content: flex-start;
+        }
+    }
+    &__right {
+        display: flex;
+        justify-content: flex-end;
+        width: 75%;
+        height: 100%;
+    }
+    &__burger {
+        position: relative;
+        right: 20px;
+    }
+}
+
+
+
+
+
+
+
+

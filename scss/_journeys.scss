@@ -1,0 +1,20 @@
+.journeys {
+    &__container {
+        @include flex-small();
+        
+        @media (min-width:992px) {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            margin: 0 auto;
+        }
+       
+    }
+}
+
+.icon {
+    padding: 5px;
+    background-color: $main-color;
+    &:hover {background-color: #FFF5DA;}
+    transition: 1,5s;
+    border-radius: 50px;
+}
