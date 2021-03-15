@@ -2,6 +2,7 @@
     &__container {
         height: 100%;
         position: relative;
+        overflow: hidden;
         @include flex-small();
     }
     &__album {
